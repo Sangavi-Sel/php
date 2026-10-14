@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: php
-          image: praveenedward/php:v1
+          image: sangavi17/php:v1
           envFrom:
             - configMapRef:
                 name: php-config
